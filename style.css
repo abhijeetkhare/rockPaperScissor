@@ -1,0 +1,46 @@
+div{
+    margin: 2px;
+}
+body{
+    background-color: rgb(197, 233, 233);
+    width: 100vw;
+}
+#choice{
+    height: 50vh;
+    width: 444px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#computer{
+    height: 50vh;
+    width: 444px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 50%;
+    margin: 1%;
+    height: 70%;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+}
+#img:hover{
+    transform: scale(1.1);
+}
+.win{
+    background-color: green;
+}
+.loose{
+    background-color: red;
+}
+.hide{
+    display: none;
+}

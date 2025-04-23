@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Rock Paper Scissor</h1>
+    
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+         <div id="choice" style="display: flex; justify-content: center; align-items: center;">
+                 <div class="btn" id="img" >
+                    <img  src="/img/rock.jpg" alt="Paper" >
+                    <h3>rock</h3>
+                </div>
+                <div class="btn" id="img">
+                    <img  src="/img/paper.jpg" alt="Paper" >
+                    <h3>Paper</h3>
+                </div>
+                <div class="btn" id="img">
+                    <img  src="/img/scissor.jpg" alt="Paper" >
+                    <h3>Scissor</h3>
+                </div>
+                <div id="score" style="width: 100%; display: flex;flex-direction: column; justify-content: center; align-items: center;">
+                    <h3>You</h3>
+                    <h3 id="score1">0</h3>
+                </div>
+            
+            </div>
+        <div id="computer" style="display: flex; justify-content: center; align-items: center;">
+            <div id="img" class="com" style="width: 50%;">
+                <img src="/img/default.jpg" alt="default" >
+                <h3>Choose Something</h3>
+            </div>
+            <div id="score" style="width: 100%; display: flex;flex-direction: column; justify-content: center; align-items: center;">
+                <h3>Computer</h3>
+                <h3 id="score2">0</h3>
+            </div>
+        </div>
+        <div style="width: 80%; display: flex; justify-content: center;">
+            <h1 id="msg" class="win loose hide">YOU WIN</h1>
+        </div>
+
+       
+    </div>
+    <h3 id="win" style="justify-content: center;display: flex; ">The winner is</h3>
+    <script src="/app.js"></script>
+</body>
+</html>
