@@ -25,11 +25,12 @@ btns.forEach((btn) =>{
 });
 const check=(user)=>{
     let computer = strings[Math.floor(Math.random() * strings.length)];
-    com.innerHTML=`<img src="https://abhijeetkhare.github.io/rockPaperScissor/${computer}.jpg" alt="default">;
-         <h3>Choose Something</h3>
-         `
+   
     
     if(user=="rock"){
+         com.innerHTML=`<img src="https://abhijeetkhare.github.io/rockPaperScissor/${computer}.jpg" alt="default">;
+         <h3>Computer choose ${computer}</h3>
+         `
         if(computer=="rock"){
             console.log("Tie")
         }
@@ -45,6 +46,9 @@ const check=(user)=>{
         }
     }
     if(user=="paper"){
+        com.innerHTML=`<img src="https://abhijeetkhare.github.io/rockPaperScissor/${computer}.jpg" alt="default">;
+         <h3>Computer choose ${computer}</h3>
+         `
         if(computer=="rock"){
             console.log("user wins")
             use++;
@@ -60,6 +64,9 @@ const check=(user)=>{
         }
     }
     if(user=="scissor"){
+        com.innerHTML=`<img src="https://abhijeetkhare.github.io/rockPaperScissor/${computer}.jpg" alt="default">;
+         <h3>Computer choose ${computer}</h3>
+         `
         if(computer=="rock"){
             console.log("Computer Wins")
             comp++;
