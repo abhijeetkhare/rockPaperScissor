@@ -26,7 +26,7 @@ btns.forEach((btn) =>{
 const check=(user)=>{
     let computer = strings[Math.floor(Math.random() * strings.length)];
     com.innerHTML=`
-        <img src="https://abhijeetkhare.github.io/rockPaperScissor/${computer}.jpg" alt="default" >
+        <img src=`"https://abhijeetkhare.github.io/rockPaperScissor/${computer}.jpg" alt="default"` >
          <h3>Choose Something</h3>
          `
     
